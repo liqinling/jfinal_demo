@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<横向 name="维度名称" indexName="对应指标名称" arrays="下拉框值" source="工程属性"
+		direction="横向" isOther="false">
+	</横向>
+	<纵向 name="维度名称" indexName="对应指标名称" arrays="下拉框值" source="工程属性"
+		direction="横向" isOther="false">
+	</纵向>
+	<附加横向 name="维度名称" indexName="对应指标名称" arrays="下拉框值" source="工程属性"
+		direction="横向" isOther="true">
+	</附加横向>
+	<显示列>
+		<列 name="列名" dataType="数据类型" unit="单位" express="计算式" statsWay="统计方式：求和/均值/分布"
+			editable="是否可编辑" visible="是否显示" remark="备注"></列>
+		<列 name="列名" dataType="数据类型" unit="单位" express="计算式" statsWay="统计方式：求和/均值/分布"
+			editable="是否可编辑" visible="是否显示" remark="备注"></列>
+	</显示列>
+	<附加列>
+		<列 name="列名" dataType="数据类型" unit="单位" express="计算式" eStatsWay="统计方式：求和/均值/分布"
+			editable="是否可编辑" visible="是否显示" remark="备注"></列>
+		<列 name="列名" dataType="数据类型" unit="单位" express="计算式" eStatsWay="统计方式：求和/均值/分布"
+			editable="是否可编辑" visible="是否显示" remark="备注"></列>
+	</附加列>
+</Root>
